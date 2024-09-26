@@ -25,7 +25,6 @@ class Hotel(Base):
     city = Column(String)
     section = Column(String)
 
-# SCRAPY_IMAGE_DIR = '/home/w3e100/Downloads/Scrapy_Project-main/trip_scraper/images'
 
 def copy_image(src_filename, dst_path):
     """
